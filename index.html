@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Social Media Dashboard</title>
+</head>
+<body>
+  <div class="header" id="headerGroupArea">
+    <div class="headerContent">
+      <h2 class="mainFont titles">Social Media Dashboard</h2>
+      <h4 class="totalfollowers subtitle">Total Followers: 23,004</h4>
+          <p id="toggle" onclick="onBodyClick()"class="titles toggleArea">Dark Mode</p>
+    </div>
+  </div>
+  <div id="bodyGroupArea" class="bodyGroup">
+  <div class="wrapper">
+    <div class="socialBox facebook" id="box">
+      <div class="socialName">
+        <p class="subtitle"><img class="icon" src="images/icon-facebook.svg"/> @nathanf</p>
+      </div> 
+        <div>
+          <h1 class="titles">1987</h1>
+          <h4 class="followers subtitle"  id="subtitle">Followers</h4>
+        </div>
+      <p class="today"> <img class="chevron" src="./images/icon-up.svg"/>12 Today</p>
+    </div>
+    <div class="socialBox twitter" id="box">
+      <div class="socialName">
+        <p class="subtitle"><img class="icon" src="./images/icon-twitter.svg"/> @nathanf</p>
+      </div>
+        <div>
+          <h1 class="titles">1044</h1>
+          <h4 class="followers subtitle">Followers</h4>
+        </div>
+      <p class="today"> <img class="chevron" src="./images/icon-up.svg"/>99 Today</p>
+    </div>
+    <div class="socialBox instagram" id="box">
+      <div class="socialName">
+        <p class="subtitle"><img class="icon" src="./images/icon-instagram.svg"/> @realnathanf</p>
+      </div>
+        <div>
+          <h1 class="titles">11k</h1>
+          <h4 class="followers subtitle" id="subtitle">Followers</h4>
+        </div>
+      <p class="today"> <img class="chevron" src="./images/icon-up.svg"/>1099 Today</p>
+    </div>
+    <div class="socialBox youtube " id="box">
+      <div class="socialName">
+        <p class="subtitle"><img class="icon" src="./images/icon-youtube.svg"/>Nathan F.</p>
+      </div>
+        <div>
+          <h1 class="titles" id="title">8239</h1>
+          <h4 class="followers subtitle">Subscribers</h4>
+        </div>
+      <p class="todayDown"><img class="chevron" src="./images/icon-down.svg"/>144 Today</p>
+    </div>
+  </div>
+
+  <div>
+    <h3 id="overtitle" class="titles">Overview - Today</h3>
+    <div class="overviewGrid">
+      <div class="overviewBox" id="box">
+          <div class="text">
+            <h5 class="subtitle">Page Views <img class="overviewIcon" src="./images/icon-youtube.svg"/></h5>
+            <h2 class="titles">87</h2>
+            <p class="percent">3%</p>
+          </div>
+      </div>
+      <div class="overviewBox" id="box">
+          <div class="text">
+            <h5 class="subtitle">Likes <img class="overviewIcon" src="./images/icon-youtube.svg"/></h5>
+            <h2 class="titles">52</h2>
+            <p class="red">2%</p>
+          </div>
+      </div>
+      <div class="overviewBox" id="box">
+        <div class="text">
+          <h5 class="subtitle">Likes <img class="overviewIcon" src="./images/icon-youtube.svg"/></h5>
+          <h2 class="titles">5462</h2>
+          <p class="percent">2257%</p>
+        </div>
+      </div>
+      <div class="overviewBox" id="box">
+        <div class="text">
+          <h5 class="subtitle">Profile Views <img class="overviewIcon" src="./images/icon-youtube.svg"/></h5>
+          <h2 class="titles">52k</h2>
+          <p class="percent">1375%</p>
+        </div>
+      </div>
+      <div class="overviewBox" id="box">
+        <div class="text">
+          <h5 class="subtitle">Retweets <img class="overviewIcon" src="./images/icon-youtube.svg"/></h5>
+          <h2 class="titles">117</h2>
+          <p class="percent">303%</p>
+        </div>
+      </div>
+      <div class="overviewBox" id="box">
+        <div class="text">
+          <h5 class="subtitle">Likes <img class="overviewIcon" src="./images/icon-youtube.svg"/></h5>
+          <h2 class="titles">507</h2>
+          <p class="percent">553%</p>
+        </div>
+      </div>
+      <div class="overviewBox" id="box">
+        <div class="text">
+          <h5 class="subtitle">Likes <img class="overviewIcon" src="./images/icon-youtube.svg"/></h5>
+          <h2 class="titles">107</h2>
+          <p class="red">19%</p>
+        </div>
+      </div>
+      <div class="overviewBox" id="box">
+        <div class="text">
+          <h5 class="subtitle">Total Views <img class="overviewIcon" src="./images/icon-youtube.svg"/></h5>
+          <h2 class="titles">1407</h2>
+          <p class="percent red">12%</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+</html>
